@@ -165,12 +165,6 @@ FIZI/
 
 ---
 
-## 👨‍💻 Developer
-**Mahesh Challa**  
-GitHub: [@MaheshChalla2701](https://github.com/MaheshChalla2701)  
-Email: maheshchalla2701@gmail.com
-
----
 <div align="center">
 **Built for the future of decentralized AI fitness.**
 </div>
