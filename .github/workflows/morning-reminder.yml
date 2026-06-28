@@ -1,0 +1,27 @@
+name: Morning Reminder (7 AM IST)
+
+on:
+  schedule:
+    - cron: '30 1 * * *' # 7:00 AM IST
+  workflow_dispatch: # Allows manual testing
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install firebase-admin node-fetch@2
+
+      - name: Create Service Account File
+        run: echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > service-account.json
+
+      - name: Run Morning Reminder
+        run: node scripts/daily-morning-reminder.js

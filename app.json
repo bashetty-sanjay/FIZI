@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "FIZI-Fitness,Gym & Workouts",
+    "slug": "ai-fitness-trainer",
+    "scheme": "fizi",
+    "version": "1.1.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "backgroundColor": "#ffffff",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to analyze your workout form in real-time.",
+        "NSMicrophoneUsageDescription": "This app needs microphone access for voice commands."
+      }
+    },
+    "icon": "assets/app-icon.png",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "assets/app-icon.png",
+        "backgroundColor": "#0A0E27"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "googleServicesFile": "./google-services.json",
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.maheshchalla.fizi",
+      "versionCode": 46
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "4362db1a-f495-48f5-8129-1dfa113c7b85"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-iap",
+        {
+          "paymentProvider": "Play Store"
+        }
+      ],
+      "@react-native-google-signin/google-signin"
+    ]
+  }
+}

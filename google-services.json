@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "1057242418550",
+    "project_id": "advi-fc220",
+    "storage_bucket": "advi-fc220.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057242418550:android:d3cebcab03500acf69be57",
+        "android_client_info": {
+          "package_name": "com.maheshchalla.fizi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057242418550-9rnj5plssgd1c0t5uffng79ro6tm0pse.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maheshchalla.fizi",
+            "certificate_hash": "9f60b8e62bdf28c0e56b2968db205947a341c61f"
+          }
+        },
+        {
+          "client_id": "1057242418550-lhh8kq6jktmk364fle42an097sm3825e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maheshchalla.fizi",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcM2kKH_ELxYMdWPrRFC0TmPNGDXdjeLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057242418550-gln5c1v89bg2ab2n7pbnf7ep5riis42j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
